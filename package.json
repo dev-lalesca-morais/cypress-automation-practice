@@ -1,0 +1,13 @@
+{
+  "name": "cypress-mochawesome-demo",
+  "version": "1.0.0",
+  "description": "Projeto Cypress com Mochawesome",
+  "scripts": {
+    "cy:open": "cypress open --browser chrome",
+    "cy:run": "cypress run --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.0",
+    "cypress-mochawesome-reporter": "^3.2.0"
+  }
+}
